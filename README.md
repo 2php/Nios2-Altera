@@ -13,14 +13,23 @@ In MIPS there are 5 stages:
 This stages are designed in below given code.
 
 fetch.v-->      Fetch Stage
+
 decode.v-->     Decode Stage
+
 execute.v-->    Execution Stage
+
 mw.v-->         Memory write stage
+
 wb.v -->        Write back Stage
+
 mem_code.v-->   Code Memory (In which memory data memory is created)
+
 ins_mem_40 -->  Instruction Memory(In thich Instruction memory is created)
+
 combine_proce.v-> Combining all the blocks together
+
 combine_proce_tb.v-> Test Bench for the whole code
+
 
 Advantages
 
