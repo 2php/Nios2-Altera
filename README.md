@@ -22,6 +22,6 @@ ins_mem_40 -->  Instruction Memory(In thich Instruction memory is created)
 combine_proce.v-> Combining all the blocks together
 combine_proce_tb.v-> Test Bench for the whole code
 
-Advantages__
+Advantages
 
 Mips provide 5 stage pipeline structure which is very fast in execution and provides instruction level parallelism. Using Nios:2 soft core architecture which has different instruction format than Mips assembly this project has been implemented. Hence, MIPS hardware can be used for different types of different instruction formats with slight modifications.
